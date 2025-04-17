@@ -1,0 +1,189 @@
+/* General Body Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+/* File Upload Area */
+.stFileUploader {
+    margin: 20px 0;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px dashed #3498db;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.stFileUploader input[type="file"] {
+    display: none;
+}
+
+.stFileUploader label {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.stFileUploader label:hover {
+    background-color: #2980b9;
+}
+
+/* Data Summary Section */
+.data-summary {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.data-summary h3 {
+    font-size: 2rem;
+    color: #2c3e50;
+}
+
+.data-summary .summary-item {
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+.data-summary .summary-item strong {
+    color: #2980b9;
+}
+
+/* Table Styling for Dataset Preview */
+.stDataFrame {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stDataFrame th,
+.stDataFrame td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.stDataFrame th {
+    background-color: #2c3e50;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.stDataFrame tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.stDataFrame tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Outliers Section */
+.outliers-section {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.outliers-section h4 {
+    color: #e74c3c;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.outliers-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.outliers-section li {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    color: #34495e;
+}
+
+/* Graphs and Plots */
+.plot-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.plot-container h4 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #2c3e50;
+    color: #fff;
+    font-size: 1rem;
+    border-top: 2px solid #3498db;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
